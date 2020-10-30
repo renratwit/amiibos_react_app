@@ -6,7 +6,7 @@ const Amiibo = ({ name, img, game }) => {
       <h1>{name}</h1>
       <img src={img}></img>
       <p>{game}</p>
-      <button onClick={() => localStorage.setItem(game, name)}>+</button>
+      {/* <button onClick={() => localStorage.setItem(game, name)}>+</button>  */}
     </div>
   );
 };

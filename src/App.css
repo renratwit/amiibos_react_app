@@ -36,9 +36,6 @@
   height: 20vh;
 }
 
-.amiibo:hover {
-}
-
 .amiibo {
   padding: 15px 10px;
   background-color: #fcca03;
@@ -54,13 +51,18 @@
 
 @media (max-width: 750px) {
   .amiibo {
-    height: 40vh;
+    height: 100%;
     margin: 5px;
+    overflow-x: hidden;
   }
   .amiibo h1 {
     font-size: 0.6rem;
   }
   .amiibo img {
-    width: 100px;
+    height: 100px;
+  }
+
+  .App input {
+    font-size: 1.5rem;
   }
 }
